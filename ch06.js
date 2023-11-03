@@ -1,0 +1,16 @@
+let a = 10;
+document.write("Result  : </br>");
+document.write(`The Value of a is :  ${a} </br>`);
+document.write(".............................................. </br>");
+++a;
+document.write(`The Value of ++a is  : ${a} </br>`);
+document.write(`Now The Value of a is  : ${a} </br> </br>`);
+document.write(`The Value of a++ is :  ${a} </br>`);
+a++;
+document.write(`Now The Value of a is  : ${a} </br> </br>`);
+--a;
+document.write(`The Value of --a is :  ${a} </br>`);
+document.write(`Now The Value of a is :  ${a} </br> </br>`);
+document.write(`The Value of a-- is :  ${a} </br>`);
+a--;
+document.write(`Now The Value of a is  :  ${a} </br> </br>`);
